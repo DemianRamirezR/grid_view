@@ -44,41 +44,56 @@ class MyHomePage extends StatelessWidget {
               childAspectRatio: 1),
           children: [
             Container(
+              color: Colors.pink,
               child: Column(
-                children: [Image.asset("assets/Logo1.png"), Text("Texto 1")],
+                children: [
+                  Image.asset("assets/Logo1.png"),
+                  Text("Texto 1", style: TextStyle(color: Colors.white))
+                ],
               ),
             ),
             Container(
+              color: Colors.pink,
               child: Column(
                 children: [
                   Image.asset("assets/coffee-cup.png"),
-                  Text("Texto 2")
+                  Text("Texto 2", style: TextStyle(color: Colors.white))
                 ],
               ),
             ),
             Container(
+              color: Colors.pink,
               child: Column(
                 children: [
                   Image.asset("assets/coffee-shop.png"),
-                  Text("Texto 3")
+                  Text("Texto 3", style: TextStyle(color: Colors.white))
                 ],
               ),
             ),
             Container(
+              color: Colors.pink,
               child: Column(
-                children: [Image.asset("assets/java.png"), Text("Texto 4")],
+                children: [
+                  Image.asset("assets/java.png"),
+                  Text("Texto 4", style: TextStyle(color: Colors.white))
+                ],
               ),
             ),
             Container(
+              color: Colors.pink,
               child: Column(
-                children: [Image.asset("assets/mug.png"), Text("Texto 5")],
+                children: [
+                  Image.asset("assets/mug.png"),
+                  Text("Texto 5", style: TextStyle(color: Colors.white))
+                ],
               ),
             ),
             Container(
+              color: Colors.pink,
               child: Column(
                 children: [
                   Image.asset("assets/starbucks.png"),
-                  Text("Texto 6")
+                  Text("Texto 6", style: TextStyle(color: Colors.white))
                 ],
               ),
             ),
